@@ -16,7 +16,7 @@ if uploaded_file is not None:
         text = extract_text(uploaded_file)
         text_lower = text.lower() 
 
-    st.success("✅ Resume Successfully Uploaded!")
+    st.success("Resume Successfully Uploaded!")
 
     # 2. Skill Keywords to Match
     keywords = ["Python", "Java", "Docker", "AWS", "SQL", "Machine Learning", "DevOps", "React", "Kubernetes", "Git"]
